@@ -1,0 +1,25 @@
+<div>
+  <h2>Support Tickets</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>User</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Created</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ticket of tickets">
+        <td>{{ ticket.id }}</td>
+        <td>{{ ticket.titlel }}</td>
+        <td>{{ ticket.user?.email }}</td>
+        <td>{{ ticket.status }}</td>
+        <td>{{ ticket.priority }}</td>
+        <td>{{ ticket.createdDate | date:'short' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

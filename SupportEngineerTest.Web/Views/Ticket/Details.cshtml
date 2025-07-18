@@ -1,0 +1,44 @@
+@model SupportEngineerTest.Web.Models.Ticket
+
+@{
+    ViewBag.Title = "Ticket Details";
+}
+
+<h2>Ticket Details</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Ticket #@Html.DisplayFor(model => model.Id)</h3>
+    </div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>Title:</dt>
+            <dd>@Html.DisplayFor(model => model.Title)</dd>
+
+            <dt>Description:</dt>
+            <dd>@Html.DisplayFor(model => model.Description)</dd>
+
+            <dt>User:</dt>
+            <dd>@Html.DisplayFor(model => model.User.Email)</dd>
+
+            <dt>Status:</dt>
+            <dd>@Html.DisplayFor(model => model.Status)</dd>
+
+            <dt>Priority:</dt>
+            <dd>@Html.DisplayFor(model => model.Priority)</dd>
+
+            <dt>Created:</dt>
+            <dd>@Html.DisplayFor(model => model.CreatedDate)</dd>
+
+            @if (Model.UpdatedDate.HasValue)
+            {
+                <dt>Updated:</dt>
+                <dd>@Html.DisplayFor(model => model.UpdatedDate)</dd>
+            }
+        </dl>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+</p>

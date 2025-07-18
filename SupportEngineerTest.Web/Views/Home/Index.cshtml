@@ -1,0 +1,29 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Support Engineer Test</h1>
+    <p class="lead">Welcome to the Support Ticket Management System. This application demonstrates ASP.NET MVC 5 with Entity Framework 6 and Angular integration.</p>
+    <p><a href="@Url.Action("Index", "Ticket")" class="btn btn-primary btn-lg">View Tickets &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Ticket Management</h2>
+        <p>
+            Create, view, and manage support tickets through our web interface.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Ticket")">View Tickets &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>REST API</h2>
+        <p>Access ticket data programmatically through our REST API endpoints.</p>
+        <p><a class="btn btn-default" href="/api/tickets">API Endpoint &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Angular Helpdesk</h2>
+        <p>Modern single-page application interface for helpdesk operations.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Helpdesk", "Home")">Launch Helpdesk &raquo;</a></p>
+    </div>
+</div>
