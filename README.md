@@ -4,19 +4,29 @@
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <your-own-fork-url>
    cd SupportEngineerTest
    ```
+   💡 Important: Please create a private fork of this repository under your own GitHub account. Do not submit PRs directly to this repository — we want to ensure other candidates cannot see your work.
 
 2. **Open the solution**
    - Open `SupportEngineerTest.sln` in Visual Studio 2022
    - The solution should load without any upgrade prompts
+  
+3. **Import the database**
+   - Use SQL Server Management Studio (SSMS) or the SQLPackage CLI to import the included db.bacpac file
+   - This will create a new local database with the schema and initial data
+   - Name the database something like SupportEngineerTestDb
+  
+ 4. **Update connection string**
+   - Open Web.config in the SupportEngineerTest.Web project
+   - Update the DefaultConnection and ApplicationDbContext string to point to your local SQL Server instance and the newly imported database. For example:
 
-3. **Run the application**
+5. **Run the application**
    - Press F5 to build and run the application
    - The application will start using IIS Express
    - Navigate to the home page to see the ticket management system
-
+  
 ## What to do
 
 **Find and fix as many defects or inefficiencies as you can. Provide a pull request or a patch diff plus a short report.**
