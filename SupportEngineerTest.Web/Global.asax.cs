@@ -1,3 +1,6 @@
+using Autofac;
+using SupportEngineerTest.Web.Models;
+using SupportEngineerTest.Web.Services;
 using System;
 using System.Data.Entity;
 using System.Web;
@@ -5,7 +8,6 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using SupportEngineerTest.Web.Models;
 
 namespace SupportEngineerTest.Web
 {
@@ -20,6 +22,11 @@ namespace SupportEngineerTest.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             
             Database.SetInitializer(new DatabaseInitializer());
-        }
+
+			var builder = new ContainerBuilder();
+
+			builder.RegisterInstance(new TicketService())
+				.As<ITicketService>();
+		}
     }
 }

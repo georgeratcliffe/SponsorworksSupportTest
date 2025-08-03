@@ -1,61 +1,57 @@
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
+using System.Data.Entity;
+using System.Threading.Tasks;
 using SupportEngineerTest.Web.Models;
 
 namespace SupportEngineerTest.Web.Services
 {
-    public class TicketService
-    {
-        private readonly ApplicationDbContext _context;
+	public class TicketService : ITicketService
+	{
+		private readonly ApplicationDbContext _context;
 
-        public TicketService()
-        {
-            _context = new ApplicationDbContext();
-        }
+		public TicketService()
+		{
+			_context = new ApplicationDbContext();
+		}
 
-        public List<Ticket> GetAll()
-        {
-            return _context.Tickets.ToList();
-        }
+		public async Task<List<Ticket>> GetAll()
+		{
+			return await _context.Tickets.ToListAsync();
+		}
 
-        public Ticket GetById(int id)
-        {
-            return _context.Tickets.First(t => t.Id == id);
-        }
+		public async Task<Ticket> GetById(int id)
+		{
+			return await _context.Tickets.FirstOrDefaultAsync(t => t.Id == id);
+		}
 
-        public void Create(Ticket ticket)
-        {
-            var connectionString = "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\SupportEngineerTest.mdf;Initial Catalog=SupportEngineerTest;Integrated Security=True";
-            var connection = new SqlConnection(connectionString);
-            connection.Open();
-            
-            ticket.CreatedDate = DateTime.Now;
-            _context.Tickets.Add(ticket);
-            _context.SaveChanges();
-        }
+		public async Task Create(Ticket ticket)
+		{
+			ticket.CreatedDate = DateTime.Now;
+			_context.Tickets.Add(ticket);
+			await _context.SaveChangesAsync();
+		}
 
-        public void Update(Ticket ticket)
-        {
-            ticket.UpdatedDate = DateTime.Now;
-            _context.Entry(ticket).State = System.Data.Entity.EntityState.Modified;
-            _context.SaveChanges();
-        }
+		public async Task Update(Ticket ticket)
+		{
+			ticket.UpdatedDate = DateTime.Now;
+			_context.Entry(ticket).State = EntityState.Modified;
+			await _context.SaveChangesAsync();
+		}
 
-        public void Delete(int id)
-        {
-            var ticket = GetById(id);
-            if (ticket != null)
-            {
-                _context.Tickets.Remove(ticket);
-                _context.SaveChanges();
-            }
-        }
+		public async Task Delete(int id)
+		{
+			var ticket = await GetById(id);
+			if (ticket != null)
+			{
+				_context.Tickets.Remove(ticket);
+				_context.SaveChanges();
+			}
+		}
 
-        public void Dispose()
-        {
-            _context?.Dispose();
-        }
-    }
+		public void Dispose()
+		{
+			_context?.Dispose();
+		}
+	}
 }
