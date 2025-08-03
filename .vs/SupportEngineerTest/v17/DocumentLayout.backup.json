@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SupportEngineerTest.Web||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-0000-0000-0000-000000000000}|SupportEngineerTest.Tests\\SupportEngineerTest.Tests.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.tests\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-0000-0000-0000-000000000000}|SupportEngineerTest.Tests\\SupportEngineerTest.Tests.csproj|solutionrelative:supportengineertest.tests\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SupportEngineerTest.Web||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,7 +68,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Tests\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Tests\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Tests\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "SupportEngineerTest.Tests\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T09:51:39.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ApiController.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\ApiController.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Controllers\\ApiController.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "202507180841167_init.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Migrations\\202507180841167_init.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Migrations\\202507180841167_init.cs",
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Migrations\\Configuration.cs",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Models\\ApplicationDbContext.cs",
@@ -112,20 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Web.config",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Web.config",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Web.config",
               "RelativeToolTip": "SupportEngineerTest.Web\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-07-18T08:11:30.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SupportEngineerTest.Web",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\RouteConfig.cs",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\FilterConfig.cs",
@@ -161,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\BundleConfig.cs",
@@ -177,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Controllers\\HomeController.cs",
@@ -189,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Global.asax.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Global.asax.cs",
@@ -201,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TicketController.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Controllers\\TicketController.cs",
