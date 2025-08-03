@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|c:\\users\\georg\\source\\repos\\sponsorworkssupporttest\\supportengineertest.web\\views\\ticket\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\views\\ticket\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,18 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\supportengineertest.web\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|SupportEngineerTest.Web\\SupportEngineerTest.Web.csproj|solutionrelative:supportengineertest.web\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +66,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "TicketController.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Controllers\\TicketController.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\TicketController.cs",
               "RelativeToolTip": "SupportEngineerTest.Web\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwCMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T10:20:57.529Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Global.asax.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Global.asax.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Global.asax.cs",
               "RelativeToolTip": "SupportEngineerTest.Web\\Global.asax.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T10:19:53.753Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\BundleConfig.cs",
@@ -77,24 +107,130 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T10:46:09.799Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "SupportEngineerTest.Web\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:36:36.855Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SupportEngineerTest.Web\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:39:17.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\packages.config",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\packages.config",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\packages.config",
+              "RelativeToolTip": "SupportEngineerTest.Web\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-03T10:26:56.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Services\\TicketService.cs",
+              "RelativeToolTip": "SupportEngineerTest.Web\\Services\\TicketService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:27:01.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Global.asax",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Global.asax",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Global.asax",
+              "RelativeToolTip": "SupportEngineerTest.Web\\Global.asax",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000179|",
+              "WhenOpened": "2025-08-03T16:27:52.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "SupportEngineerTest.Web\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:25:04.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "SupportEngineerTest.Web\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:38:29.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "SupportEngineerTest.Web\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:38:40.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Views\\Ticket\\Details.cshtml",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Views\\Ticket\\Details.cshtml",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Views\\Ticket\\Details.cshtml",
               "RelativeToolTip": "SupportEngineerTest.Web\\Views\\Ticket\\Details.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwCIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-03T15:28:09.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Views\\Ticket\\Index.cshtml",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Views\\Ticket\\Index.cshtml",
@@ -107,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SupportEngineerTest.Web\\Views\\Shared\\_Layout.cshtml",
@@ -117,18 +253,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-03T10:48:20.158Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\packages.config",
-              "RelativeDocumentMoniker": "SupportEngineerTest.Web\\packages.config",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\SponsorworksSupportTest\\SupportEngineerTest.Web\\packages.config",
-              "RelativeToolTip": "SupportEngineerTest.Web\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-03T10:26:56.504Z"
             }
           ]
         }

@@ -14,10 +14,8 @@ namespace SupportEngineerTest.Web.Controllers
 
 		public TicketController()
 		{
-			_ticketService = new TicketService();
 		}
 
-		// This should work with Autofac
 		public TicketController(ITicketService ticketService)
 		{
 			_ticketService = ticketService;

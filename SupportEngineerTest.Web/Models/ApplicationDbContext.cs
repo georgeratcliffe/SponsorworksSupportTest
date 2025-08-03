@@ -23,6 +23,7 @@ namespace SupportEngineerTest.Web.Models
                 .HasForeignKey(t => t.UserId);
 
             base.OnModelCreating(modelBuilder);
+            base.Configuration.ProxyCreationEnabled = false;
         }
     }
 

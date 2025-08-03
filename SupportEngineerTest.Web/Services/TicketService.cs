@@ -15,6 +15,11 @@ namespace SupportEngineerTest.Web.Services
 			_context = new ApplicationDbContext();
 		}
 
+		public TicketService(ApplicationDbContext context)
+		{
+			_context = context;
+		}
+
 		public async Task<List<Ticket>> GetAll()
 		{
 			return await _context.Tickets.ToListAsync();

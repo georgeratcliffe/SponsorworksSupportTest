@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Http;
 using SupportEngineerTest.Web.Models;
 using SupportEngineerTest.Web.Services;
@@ -8,19 +9,23 @@ namespace SupportEngineerTest.Web.Controllers
     [RoutePrefix("api")]
     public class TicketsController : ApiController
     {
-        private readonly TicketService _ticketService;
+        private readonly ITicketService _ticketService;
 
         public TicketsController()
         {
-            _ticketService = new TicketService();
         }
 
-        [HttpGet]
+		public TicketsController(ITicketService ticketService)
+		{
+			_ticketService = ticketService;
+		}
+
+		[HttpGet]
         [Route("tickets")]
-        public IHttpActionResult GetTickets()
+        public async Task<IHttpActionResult> GetTickets()
         {
             System.Web.HttpContext.Current.Response.AddHeader("Cache-Control", "no-cache");
-            var tickets = _ticketService.GetAll();
+            var tickets = await _ticketService.GetAll();
             return Ok(tickets);
         }
 
