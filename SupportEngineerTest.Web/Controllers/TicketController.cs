@@ -35,6 +35,12 @@ namespace SupportEngineerTest.Web.Controllers
 			return View(ticket);
 		}
 
+		public async Task<ActionResult> Create()
+		{
+			await Task.CompletedTask;
+			return View();
+		}
+
 		[HttpPost]
 		public async Task<ActionResult> Create(Ticket ticket)
 		{
