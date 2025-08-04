@@ -42,13 +42,13 @@ namespace SupportEngineerTest.Web.Controllers
             return BadRequest(ModelState);
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                _ticketService?.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing)
+        //    {
+        //        _ticketService?.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
     }
 }
