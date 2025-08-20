@@ -24,7 +24,7 @@ namespace SupportEngineerTest.Web.Controllers
 		public async Task<ActionResult> Index()
 		{
 			var tickets = await _ticketService.GetAll();
-			return View(tickets.Take(10));
+			return View(tickets);
 		}
 
 		public async Task<ActionResult> Details(int id)
