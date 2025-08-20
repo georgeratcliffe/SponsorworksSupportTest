@@ -23,8 +23,7 @@ namespace SupportEngineerTest.Web.Controllers
 		[HttpGet]
         [Route("tickets")]
         public async Task<IHttpActionResult> GetTickets()
-        {
-            System.Web.HttpContext.Current.Response.AddHeader("Cache-Control", "no-cache");
+        {       
             var tickets = await _ticketService.GetAll();
             return Ok(tickets);
         }
@@ -33,7 +32,6 @@ namespace SupportEngineerTest.Web.Controllers
         [Route("tickets")]
         public IHttpActionResult CreateTicket([FromBody] Ticket ticket)
         {
-            System.Web.HttpContext.Current.Response.AddHeader("Cache-Control", "no-cache");
             if (ModelState.IsValid)
             {
                 _ticketService.Create(ticket);
