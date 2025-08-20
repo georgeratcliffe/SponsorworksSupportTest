@@ -27,7 +27,7 @@ namespace SupportEngineerTest.Web.Services
 
 		public async Task<Ticket> GetById(int id)
 		{
-			return await _context.Tickets.FirstOrDefaultAsync(t => t.Id == id);
+			return await _context.Tickets.Include(t => t.User).FirstOrDefaultAsync(t => t.Id == id);
 		}
 
 		public async Task Create(Ticket ticket)
