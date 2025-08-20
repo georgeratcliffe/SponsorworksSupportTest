@@ -28,7 +28,7 @@
         <td>@Html.DisplayFor(modelItem => item.User.Email)</td>
         <td>@Html.DisplayFor(modelItem => item.Status)</td>
         <td>@Html.DisplayFor(modelItem => item.Priority)</td>
-        <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+        <td>@Convert.ToString(string.Format("{0:dd/MM/yyyy}", item.CreatedDate))</td>
         <td>
             @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-sm btn-info" })
         </td>

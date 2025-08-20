@@ -7,12 +7,14 @@ namespace SupportEngineerTest.Web.Controllers
     {
         public async Task<ActionResult> Index()
         {
+            await Task.CompletedTask;
             return View();
         }
 
         public async Task<ActionResult> Helpdesk()
         {
-            return View();
+			await Task.CompletedTask;
+			return View();
         }
     }
 }

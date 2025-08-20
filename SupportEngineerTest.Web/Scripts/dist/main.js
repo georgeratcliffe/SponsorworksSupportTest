@@ -11,12 +11,12 @@
                 if (tbody) {
                     tbody.innerHTML = tickets.map(ticket => `
                         <tr>
-                            <td>${ticket.id}</td>
-                            <td>${ticket.titlel}</td>
-                            <td>${ticket.user?.email || ''}</td>
-                            <td>${ticket.status}</td>
-                            <td>${ticket.priority}</td>
-                            <td>${new Date(ticket.createdDate).toLocaleDateString()}</td>
+                            <td>${ticket.Id}</td>
+                            <td>${ticket.Title}</td>
+                            <td>${ticket.User?.Name || ''}</td>
+                            <td>${ticket.Status}</td>
+                            <td>${ticket.Priority}</td>
+                            <td>${new Date(ticket.CreatedDate).toLocaleDateString()}</td>
                         </tr>
                     `).join('');
                 }
