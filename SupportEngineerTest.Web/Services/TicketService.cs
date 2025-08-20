@@ -22,8 +22,7 @@ namespace SupportEngineerTest.Web.Services
 
 		public async Task<List<Ticket>> GetAll()
 		{
-			//return await _context.Tickets.Include(t => t.User).ToListAsync();
-			return await _context.Tickets.ToListAsync();
+			return await _context.Tickets.Include(t => t.User).ToListAsync();
 		}
 
 		public async Task<Ticket> GetById(int id)

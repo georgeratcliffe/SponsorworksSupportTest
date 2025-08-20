@@ -35,6 +35,7 @@ namespace SupportEngineerTest.Tests
 			mockSet.As<IQueryable<Ticket>>().Setup(m => m.ElementType).Returns(tickets.ElementType);
 			mockSet.As<IQueryable<Ticket>>().Setup(m => m.GetEnumerator()).Returns(() => tickets.GetEnumerator());
 
+			mockSet.Setup(m => m.Include("User")).Returns(mockSet.Object);
 		}
 
 
