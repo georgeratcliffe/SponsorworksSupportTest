@@ -12,8 +12,8 @@ namespace SupportEngineerTest.Web.Models
             Database.SetInitializer(new CreateDatabaseIfNotExists<ApplicationDbContext>());
         }
 
-        public DbSet<Ticket> Tickets { get; set; }
-        public DbSet<User> Users { get; set; }
+        public virtual DbSet<Ticket> Tickets { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
